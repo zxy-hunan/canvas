@@ -13,6 +13,7 @@
         tools:ignore="MissingConstraints">
     <com.zxy.canvas.LightImgView
         android:layout_width="355px"
+        android:visibility="gone"
         android:layout_height="507px" />
 
         <com.zxy.canvas.LightImgView
@@ -20,5 +21,10 @@
             android:layout_width="102px"
             android:visibility="gone"
             android:layout_height="400px"/>
+
+        <com.zxy.canvas.DevSeekBar
+            android:id="@+id/devSeek"
+            android:layout_width="360px"
+            android:layout_height="132px"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
